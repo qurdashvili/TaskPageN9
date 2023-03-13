@@ -1,0 +1,150 @@
+
+@font-face {
+    font-family:  "Inter";
+    
+    src: url(./Font/Inter.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+#TableName{
+
+    height: 22px;
+    width: 152px;
+    position: absolute;
+    top: 55px;
+    left: 148px;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+table{
+
+    border: 1px solid #DADADA;
+    border-collapse: collapse;
+    margin-top: 90px;
+    margin-left: 141px;
+}
+
+#ID{
+    background: #F9F9F9;
+    height: 57px;
+    width: 72px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.ID{
+
+    height: 57px;
+    width: 72px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    
+}
+
+.Title{
+    background: #F9F9F9;
+    height: 57px;
+    width: 444px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 23px;
+}
+
+.TxtData{
+    height: 57px;
+    width: 444px;
+    text-align: left;
+    padding-left: 23px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;    
+}
+
+.CreatedAt{
+    background: #F9F9F9;
+    height: 57px;
+    width: 276px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+.Data{
+
+    height: 57px;
+    width: 276px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+
+.Action{
+
+    background: #F9F9F9;
+    height: 57px;
+    width: 368px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+.TdBatons{
+    height: 57px;
+    width: 368px;
+    padding-left: 75px;
+    
+}
+
+.Edit{
+    
+    background: rgba(255, 212, 58, 1);
+    height: 36px;
+    width: 115px;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    border-style: none;
+
+}
+
+.Delete{
+
+    background: rgba(232, 73, 73, 1);
+    height: 36px;
+    width: 115px;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    border-style: none;
+
+}
